@@ -1,0 +1,60 @@
+header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: end;
+  background-color: rgb(0, 153, 255);
+}
+
+header #logo {
+  width: 15%;
+  min-width: 80px;
+  max-width: 200px;
+  margin: 20px;
+
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 20px;
+}
+
+header nav ul li {
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li p {
+  margin: 0 10px;
+}
+
+header #searchbox {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(0, 195, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#searchbox input[type='text'] {
+  padding: 10px;
+  width: 80%;
+}
+
+#searchbox button {
+  background-color: rgb(2, 64, 247);
+  color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 15px;
+}
+
+#searchbox button:hover {
+  background-color: rgb(0, 153, 255);
+  color:black
+}
