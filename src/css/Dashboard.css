@@ -1,0 +1,16 @@
+div#dashboard {
+  margin: 20px auto;
+  padding: 30px;
+  width: 85%;
+  background-color: rgb(0, 153, 255);
+  border-radius: 5%;
+  display: block;
+}
+
+div.dash-list h2 {
+  align-self: flex-start;
+  background-color: white;
+  border-radius: 5%;
+  max-width: 300px;
+  padding: 10px 0;
+}

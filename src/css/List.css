@@ -1,0 +1,18 @@
+div.list {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}
+
+div.list-item {
+  margin: 0 10px;
+}
+
+div.list-item img {
+  max-width: 190px;
+}
+
+div.list-item h4 {
+  background-color: antiquewhite;
+  padding: 10px;
+}

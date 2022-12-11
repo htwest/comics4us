@@ -11,7 +11,7 @@ header #logo {
   min-width: 80px;
   max-width: 200px;
   margin: 20px;
-
+  cursor: pointer;
 }
 
 header nav ul {
