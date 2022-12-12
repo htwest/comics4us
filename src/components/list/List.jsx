@@ -13,12 +13,8 @@ const List = ({ comics, setSelected }) => {
 
   return (
     <div className="list">
-      {comics.map((comic) => (
-        <ListItem
-          comic={comic}
-          key={`${comic.title}${comic.issue}`}
-          handleSelect={handleSelect}
-        />
+      {comics.map((comic, index) => (
+        <ListItem comic={comic} key={index} handleSelect={handleSelect} />
       ))}
     </div>
   );

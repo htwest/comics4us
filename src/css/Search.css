@@ -1,0 +1,8 @@
+div#search-page {
+  margin: 20px auto;
+  padding: 30px;
+  width: 85%;
+  background-color: rgb(0, 153, 255);
+  border-radius: 5%;
+  display: block;
+}

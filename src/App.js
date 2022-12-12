@@ -6,6 +6,7 @@ import Dashboard from "./components/dashboard/Dashboard";
 import Footer from "./components/footer/Footer";
 import Issue from "./components/issue/Issue";
 import Cart from "./components/cart/Cart";
+import Search from "./components/search/Search";
 
 import { comics } from "./data/database.js";
 
@@ -26,6 +27,10 @@ function App() {
           element={<Issue selected={selected} setCart={setCart} cart={cart} />}
         />
         <Route path="/cart" element={<Cart cart={cart} />} />
+        <Route
+          path="/search"
+          element={<Search search={search} setSelected={setSelected} />}
+        />
       </Routes>
       <Footer />
     </div>

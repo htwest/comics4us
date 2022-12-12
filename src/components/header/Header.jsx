@@ -12,7 +12,7 @@ const Header = ({ setSearch, cartAmount }) => {
     <header>
       <img src={logo} id="logo" alt="logo" onClick={() => navigate("/")} />
       <Navigation cartAmount={cartAmount} />
-      <SearchBox />
+      <SearchBox setSearch={setSearch} />
     </header>
   );
 };
