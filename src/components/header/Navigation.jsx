@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-const Navigation = () => {
+const Navigation = ({ cartAmount }) => {
+  const navigate = useNavigate();
+
   return (
     <nav>
       <ul>
@@ -10,9 +13,10 @@ const Navigation = () => {
           <p>Profile</p>
           <FontAwesomeIcon icon={faUser} />
         </li>
-        <li>
+        <li onClick={() => navigate("/cart")}>
           <p>Cart</p>
           <FontAwesomeIcon icon={faCartShopping} />
+          <p>{cartAmount}</p>
         </li>
       </ul>
     </nav>

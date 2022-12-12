@@ -6,12 +6,12 @@ import logo from "../../images/logo.png";
 
 import "../../css/Header.css";
 
-const Header = () => {
+const Header = ({ setSearch, cartAmount }) => {
   const navigate = useNavigate();
   return (
     <header>
       <img src={logo} id="logo" alt="logo" onClick={() => navigate("/")} />
-      <Navigation />
+      <Navigation cartAmount={cartAmount} />
       <SearchBox />
     </header>
   );
