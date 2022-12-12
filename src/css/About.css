@@ -1,0 +1,23 @@
+div.about-container {
+  margin: 20px auto;
+  padding: 30px;
+  width: 85%;
+  background-color: rgb(0, 153, 255);
+  border-radius: 5%;
+  display: block;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-container img  {
+  max-width: 300px;
+}
+
+.about-info {
+  padding: 30px;
+  margin: 10px;
+  text-align: left;
+}
+

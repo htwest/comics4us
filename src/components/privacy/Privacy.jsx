@@ -1,7 +1,7 @@
 const Privacy = () => {
   return (
     <div>
-      <h1>Privacy Policy for Comics-4-Us</h1>
+      <h1>Privacy & Satisfaction Policy for Comics-4-Us</h1>
       <p>
         At comics4us, accessible from www.comics4us.com, one of our main
         priorities is the privacy of our visitors. This Privacy Policy document

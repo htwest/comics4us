@@ -1,4 +1,6 @@
+import Posts from "./Posts";
 import profile from "../../images/profile.png";
+import { myPosts } from "../../data/posts.js";
 import "../../css/Profile.css";
 
 const Profile = () => {
@@ -26,8 +28,12 @@ const Profile = () => {
           <div className="profile-buttons">
             <button>Add to Store</button>
             <button>My Catalogue</button>
+            <button>Add Post</button>
           </div>
         </div>
+      </div>
+      <div className="history-container">
+        <Posts data={myPosts} />
       </div>
     </div>
   );

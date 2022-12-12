@@ -59,3 +59,27 @@ div.profile-buttons button {
 div.profile-buttons button:hover  {
   background-color: rgb(72, 182, 255);
 }
+
+
+.post {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.post-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-buttons button {
+  background-color: rgb(0, 153, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+.post-buttons button:hover {
+  background-color: rgb(151, 212, 253);
+}

@@ -9,6 +9,9 @@ import Cart from "./components/cart/Cart";
 import Search from "./components/search/Search";
 import Profile from "./components/profile/Profile";
 import Privacy from "./components/privacy/Privacy";
+import Shipping from "./components/shipping/Shipping";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 import "./App.css";
 
@@ -33,6 +36,9 @@ function App() {
         />
         <Route path="/profile" element={<Profile />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/shipping" element={<Shipping />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
