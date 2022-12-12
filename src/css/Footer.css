@@ -24,6 +24,7 @@ footer .footer-block {
 
 .footer-block span{
   margin: 10px;
+  cursor: pointer;
 }
 
 

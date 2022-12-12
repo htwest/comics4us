@@ -8,6 +8,7 @@ import Issue from "./components/issue/Issue";
 import Cart from "./components/cart/Cart";
 import Search from "./components/search/Search";
 import Profile from "./components/profile/Profile";
+import Privacy from "./components/privacy/Privacy";
 
 import "./App.css";
 
@@ -31,6 +32,7 @@ function App() {
           element={<Search search={search} setSelected={setSelected} />}
         />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <Footer />
     </div>
