@@ -7,8 +7,7 @@ import Footer from "./components/footer/Footer";
 import Issue from "./components/issue/Issue";
 import Cart from "./components/cart/Cart";
 import Search from "./components/search/Search";
-
-import { comics } from "./data/database.js";
+import Profile from "./components/profile/Profile";
 
 import "./App.css";
 
@@ -31,6 +30,7 @@ function App() {
           path="/search"
           element={<Search search={search} setSelected={setSelected} />}
         />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </div>

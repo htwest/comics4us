@@ -9,7 +9,7 @@ const Navigation = ({ cartAmount }) => {
   return (
     <nav>
       <ul>
-        <li>
+        <li onClick={() => navigate("/profile")}>
           <p>Profile</p>
           <FontAwesomeIcon icon={faUser} />
         </li>
